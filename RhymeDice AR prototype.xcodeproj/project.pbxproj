@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16607BCC1F69B78F00CD359F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16607BCB1F69B78F00CD359F /* AppDelegate.swift */; };
+		16607BCE1F69B78F00CD359F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 16607BCD1F69B78F00CD359F /* art.scnassets */; };
+		16607BD01F69B78F00CD359F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16607BCF1F69B78F00CD359F /* ViewController.swift */; };
+		16607BD31F69B78F00CD359F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16607BD11F69B78F00CD359F /* Main.storyboard */; };
+		16607BD51F69B78F00CD359F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16607BD41F69B78F00CD359F /* Assets.xcassets */; };
+		16607BD81F69B78F00CD359F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16607BD61F69B78F00CD359F /* LaunchScreen.storyboard */; };
+		16607BE31F69B78F00CD359F /* RhymeDice_AR_prototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16607BE21F69B78F00CD359F /* RhymeDice_AR_prototypeTests.swift */; };
+		16607BEE1F69B78F00CD359F /* RhymeDice_AR_prototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16607BED1F69B78F00CD359F /* RhymeDice_AR_prototypeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16607BDF1F69B78F00CD359F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16607BC01F69B78F00CD359F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16607BC71F69B78F00CD359F;
+			remoteInfo = "RhymeDice AR prototype";
+		};
+		16607BEA1F69B78F00CD359F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16607BC01F69B78F00CD359F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16607BC71F69B78F00CD359F;
+			remoteInfo = "RhymeDice AR prototype";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16607BC81F69B78F00CD359F /* RhymeDice AR prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RhymeDice AR prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16607BCB1F69B78F00CD359F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16607BCD1F69B78F00CD359F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		16607BCF1F69B78F00CD359F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16607BD21F69B78F00CD359F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16607BD41F69B78F00CD359F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16607BD71F69B78F00CD359F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16607BD91F69B78F00CD359F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16607BDE1F69B78F00CD359F /* RhymeDice AR prototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RhymeDice AR prototypeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16607BE21F69B78F00CD359F /* RhymeDice_AR_prototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymeDice_AR_prototypeTests.swift; sourceTree = "<group>"; };
+		16607BE41F69B78F00CD359F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16607BE91F69B78F00CD359F /* RhymeDice AR prototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RhymeDice AR prototypeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16607BED1F69B78F00CD359F /* RhymeDice_AR_prototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymeDice_AR_prototypeUITests.swift; sourceTree = "<group>"; };
+		16607BEF1F69B78F00CD359F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16607BC51F69B78F00CD359F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16607BDB1F69B78F00CD359F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16607BE61F69B78F00CD359F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16607BBF1F69B78F00CD359F = {
+			isa = PBXGroup;
+			children = (
+				16607BCA1F69B78F00CD359F /* RhymeDice AR prototype */,
+				16607BE11F69B78F00CD359F /* RhymeDice AR prototypeTests */,
+				16607BEC1F69B78F00CD359F /* RhymeDice AR prototypeUITests */,
+				16607BC91F69B78F00CD359F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16607BC91F69B78F00CD359F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16607BC81F69B78F00CD359F /* RhymeDice AR prototype.app */,
+				16607BDE1F69B78F00CD359F /* RhymeDice AR prototypeTests.xctest */,
+				16607BE91F69B78F00CD359F /* RhymeDice AR prototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16607BCA1F69B78F00CD359F /* RhymeDice AR prototype */ = {
+			isa = PBXGroup;
+			children = (
+				16607BCB1F69B78F00CD359F /* AppDelegate.swift */,
+				16607BCD1F69B78F00CD359F /* art.scnassets */,
+				16607BCF1F69B78F00CD359F /* ViewController.swift */,
+				16607BD11F69B78F00CD359F /* Main.storyboard */,
+				16607BD41F69B78F00CD359F /* Assets.xcassets */,
+				16607BD61F69B78F00CD359F /* LaunchScreen.storyboard */,
+				16607BD91F69B78F00CD359F /* Info.plist */,
+			);
+			path = "RhymeDice AR prototype";
+			sourceTree = "<group>";
+		};
+		16607BE11F69B78F00CD359F /* RhymeDice AR prototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				16607BE21F69B78F00CD359F /* RhymeDice_AR_prototypeTests.swift */,
+				16607BE41F69B78F00CD359F /* Info.plist */,
+			);
+			path = "RhymeDice AR prototypeTests";
+			sourceTree = "<group>";
+		};
+		16607BEC1F69B78F00CD359F /* RhymeDice AR prototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16607BED1F69B78F00CD359F /* RhymeDice_AR_prototypeUITests.swift */,
+				16607BEF1F69B78F00CD359F /* Info.plist */,
+			);
+			path = "RhymeDice AR prototypeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16607BC71F69B78F00CD359F /* RhymeDice AR prototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16607BF21F69B78F00CD359F /* Build configuration list for PBXNativeTarget "RhymeDice AR prototype" */;
+			buildPhases = (
+				16607BC41F69B78F00CD359F /* Sources */,
+				16607BC51F69B78F00CD359F /* Frameworks */,
+				16607BC61F69B78F00CD359F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RhymeDice AR prototype";
+			productName = "RhymeDice AR prototype";
+			productReference = 16607BC81F69B78F00CD359F /* RhymeDice AR prototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16607BDD1F69B78F00CD359F /* RhymeDice AR prototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16607BF51F69B78F00CD359F /* Build configuration list for PBXNativeTarget "RhymeDice AR prototypeTests" */;
+			buildPhases = (
+				16607BDA1F69B78F00CD359F /* Sources */,
+				16607BDB1F69B78F00CD359F /* Frameworks */,
+				16607BDC1F69B78F00CD359F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16607BE01F69B78F00CD359F /* PBXTargetDependency */,
+			);
+			name = "RhymeDice AR prototypeTests";
+			productName = "RhymeDice AR prototypeTests";
+			productReference = 16607BDE1F69B78F00CD359F /* RhymeDice AR prototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16607BE81F69B78F00CD359F /* RhymeDice AR prototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16607BF81F69B78F00CD359F /* Build configuration list for PBXNativeTarget "RhymeDice AR prototypeUITests" */;
+			buildPhases = (
+				16607BE51F69B78F00CD359F /* Sources */,
+				16607BE61F69B78F00CD359F /* Frameworks */,
+				16607BE71F69B78F00CD359F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16607BEB1F69B78F00CD359F /* PBXTargetDependency */,
+			);
+			name = "RhymeDice AR prototypeUITests";
+			productName = "RhymeDice AR prototypeUITests";
+			productReference = 16607BE91F69B78F00CD359F /* RhymeDice AR prototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16607BC01F69B78F00CD359F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Will Meier";
+				TargetAttributes = {
+					16607BC71F69B78F00CD359F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					16607BDD1F69B78F00CD359F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16607BC71F69B78F00CD359F;
+					};
+					16607BE81F69B78F00CD359F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16607BC71F69B78F00CD359F;
+					};
+				};
+			};
+			buildConfigurationList = 16607BC31F69B78F00CD359F /* Build configuration list for PBXProject "RhymeDice AR prototype" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16607BBF1F69B78F00CD359F;
+			productRefGroup = 16607BC91F69B78F00CD359F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16607BC71F69B78F00CD359F /* RhymeDice AR prototype */,
+				16607BDD1F69B78F00CD359F /* RhymeDice AR prototypeTests */,
+				16607BE81F69B78F00CD359F /* RhymeDice AR prototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16607BC61F69B78F00CD359F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16607BCE1F69B78F00CD359F /* art.scnassets in Resources */,
+				16607BD81F69B78F00CD359F /* LaunchScreen.storyboard in Resources */,
+				16607BD51F69B78F00CD359F /* Assets.xcassets in Resources */,
+				16607BD31F69B78F00CD359F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16607BDC1F69B78F00CD359F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16607BE71F69B78F00CD359F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16607BC41F69B78F00CD359F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16607BD01F69B78F00CD359F /* ViewController.swift in Sources */,
+				16607BCC1F69B78F00CD359F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16607BDA1F69B78F00CD359F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16607BE31F69B78F00CD359F /* RhymeDice_AR_prototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16607BE51F69B78F00CD359F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16607BEE1F69B78F00CD359F /* RhymeDice_AR_prototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16607BE01F69B78F00CD359F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16607BC71F69B78F00CD359F /* RhymeDice AR prototype */;
+			targetProxy = 16607BDF1F69B78F00CD359F /* PBXContainerItemProxy */;
+		};
+		16607BEB1F69B78F00CD359F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16607BC71F69B78F00CD359F /* RhymeDice AR prototype */;
+			targetProxy = 16607BEA1F69B78F00CD359F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16607BD11F69B78F00CD359F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16607BD21F69B78F00CD359F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16607BD61F69B78F00CD359F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16607BD71F69B78F00CD359F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16607BF01F69B78F00CD359F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16607BF11F69B78F00CD359F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16607BF31F69B78F00CD359F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RhymeDice AR prototype/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willmeier.RhymeDice-AR-prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16607BF41F69B78F00CD359F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RhymeDice AR prototype/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willmeier.RhymeDice-AR-prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16607BF61F69B78F00CD359F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RhymeDice AR prototypeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willmeier.RhymeDice-AR-prototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RhymeDice AR prototype.app/RhymeDice AR prototype";
+			};
+			name = Debug;
+		};
+		16607BF71F69B78F00CD359F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RhymeDice AR prototypeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willmeier.RhymeDice-AR-prototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RhymeDice AR prototype.app/RhymeDice AR prototype";
+			};
+			name = Release;
+		};
+		16607BF91F69B78F00CD359F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RhymeDice AR prototypeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willmeier.RhymeDice-AR-prototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RhymeDice AR prototype";
+			};
+			name = Debug;
+		};
+		16607BFA1F69B78F00CD359F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RhymeDice AR prototypeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willmeier.RhymeDice-AR-prototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RhymeDice AR prototype";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16607BC31F69B78F00CD359F /* Build configuration list for PBXProject "RhymeDice AR prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16607BF01F69B78F00CD359F /* Debug */,
+				16607BF11F69B78F00CD359F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16607BF21F69B78F00CD359F /* Build configuration list for PBXNativeTarget "RhymeDice AR prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16607BF31F69B78F00CD359F /* Debug */,
+				16607BF41F69B78F00CD359F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16607BF51F69B78F00CD359F /* Build configuration list for PBXNativeTarget "RhymeDice AR prototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16607BF61F69B78F00CD359F /* Debug */,
+				16607BF71F69B78F00CD359F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16607BF81F69B78F00CD359F /* Build configuration list for PBXNativeTarget "RhymeDice AR prototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16607BF91F69B78F00CD359F /* Debug */,
+				16607BFA1F69B78F00CD359F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16607BC01F69B78F00CD359F /* Project object */;
+}
