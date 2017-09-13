@@ -21,13 +21,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.delegate = self
         
 //        let scene =         SCNScene(named: "art.scnassets/ship.scn")!
-        let diceCommonScene = SCNScene(named: "art.scnassets/common1.scn")!
-        let diceLongScene = SCNScene(named: "art.scnassets/long1.scn")!
-        let diceRContScene = SCNScene(named: "art.scnassets/Rcontrolled1.scn")!
-        let diceShortScene = SCNScene(named: "art.scnassets/short1.scn")!
         
+        
+        let diceCommonScene = SCNScene(named: "art.scnassets/common.scn")!
+        let diceLongScene = SCNScene(named: "art.scnassets/long.scn")!
+        let diceRContScene = SCNScene(named: "art.scnassets/Rcontrolled.scn")!
+        let diceShortScene = SCNScene(named: "art.scnassets/short.scn")!
+
         if let diceCommonNode = diceCommonScene.rootNode.childNode(withName:"Common", recursively:true){
-            diceCommonNode.position = SCNVector3(x: -03, y: 0, z: -0.1)
+            diceCommonNode.position = SCNVector3(x: -0.2, y: 0, z: -0.1)
             sceneView.scene.rootNode.addChildNode(diceCommonNode)
         }
         if let diceLongNode = diceLongScene.rootNode.childNode(withName:"Long", recursively:true){
@@ -35,23 +37,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             sceneView.scene.rootNode.addChildNode(diceLongNode)
         }
         if let diceRContNode = diceRContScene.rootNode.childNode(withName:"RCont", recursively:true){
-            diceRContNode.position = SCNVector3(x: 0.1, y: 0, z: -0.1)
+            diceRContNode.position = SCNVector3(x: 0, y: 0, z: -0.1)
             sceneView.scene.rootNode.addChildNode(diceRContNode)
         }
         if let diceShortNode = diceShortScene.rootNode.childNode(withName:"Short", recursively:true){
-            diceShortNode.position = SCNVector3(x: 0.3, y: 0, z: -0.1)
+            diceShortNode.position = SCNVector3(x: 0.1, y: 0, z: -0.1)
             sceneView.scene.rootNode.addChildNode(diceShortNode)
         }
-        
-        
-       
-        
-        
-        
-        
-        
-        
-        
         
         
         
@@ -67,13 +59,16 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 //        node.geometry = cube
 //
 //        sceneView.scene.rootNode.addChildNode(node)
-//
+        
+        
+        
+
 //        // Create a new scene
 //        let scene = SCNScene(named: "art.scnassets/ship.scn")!
 //
 //        // Set the scene to the view
 //        sceneView.scene = scene
-        
+//
         sceneView.autoenablesDefaultLighting = true
     }
     
